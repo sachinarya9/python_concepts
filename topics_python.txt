@@ -1,0 +1,15 @@
+Decorator
+iterator
+generator
+copy deepcopy -- Done
+multithreading
+OOP'S
+List, tuple, dict all methods. and difference 
+list and dict comprehension
+lamda functions, Recursion
+Closure
+Decorators example
+logging
+debugging
+memory management
+Global, local and non local variable
