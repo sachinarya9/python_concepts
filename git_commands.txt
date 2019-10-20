@@ -24,7 +24,7 @@ git commit -m 'my first commit'
 
 * Now we will add the copied URL for your GitHub repository as remote repository using the code below.
 
-git remote add origin https://github.com/sachinarya9/python_concepts.git
+	git remote add origin https://github.com/sachinarya9/python_concepts.git
 
 * This command makes our github repository as a remote, which helps us making push our local repository changes.
 
@@ -32,7 +32,7 @@ git remote add origin https://github.com/sachinarya9/python_concepts.git
 
 * In the las step, use the below command to push the local repository to github. It will upload the file or project on github.
 
-git push origin master
+	git push origin master
 
 * If you use -u in the command, it will remember your preferences for remote and branch and you can simply use the command git push next time.
 
@@ -50,4 +50,8 @@ git push -u origin master
 
 this will add the new fe to our Git repository.
 
-Note - This docume nt hs been referred from the site https://www.tutsmake.com/upload-project-files-on-github-using-command-line/.
+Note - This document hs been referred from the site https://www.tutsmake.com/upload-project-files-on-github-using-command-line/.
+
+Site to study - https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository
+
+will come back shortly
