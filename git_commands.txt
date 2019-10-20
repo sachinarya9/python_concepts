@@ -28,7 +28,6 @@ git remote add origin https://github.com/sachinarya9/python_concepts.git
 
 * This command makes our github repository as a remote, which helps us making push our local repository changes.
 
-
 7. Push local repository to Github
 
 * In the las step, use the below command to push the local repository to github. It will upload the file or project on github.
@@ -39,5 +38,16 @@ git push origin master
 
 git push -u origin master
 
+8. To add a single file to the git repository.
+
+1. git add file_name.txt # this adds file to the staging area.
+
+2. git commit -m "commited file_name.txt". # this commits the file to the local repository
+
+3. if our origin(master branch) is declared then run below command
+
+      git push origin master
+
+this will add the new fe to our Git repository.
 
 Note - This docume nt hs been referred from the site https://www.tutsmake.com/upload-project-files-on-github-using-command-line/.
