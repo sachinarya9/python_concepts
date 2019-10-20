@@ -1,0 +1,43 @@
+1. Create a git repository in github.com.
+
+2. Go to the directory in the command prompt, where you want to publish in github.
+
+cd/your_directory_name
+
+3. Us the below command to initialise the local directory as git repository.
+
+git init
+
+4. Add all the files in the local directory to staging using the below command.
+
+git add .
+
+This command stages all teh files in the directory, ready for commit.
+
+5. You can now commit the staged files using the below command. It is explanatory and helpful. The below command commits all the files present to the local git repository.
+
+git commit -m 'my first commit'
+
+6. Add remote repositry url
+
+* Now, copy the remote repositry URL provided by github to you when you published your repositry on Github.
+
+* Now we will add the copied URL for your GitHub repository as remote repository using the code below.
+
+git remote add origin https://github.com/sachinarya9/python_concepts.git
+
+* This command makes our github repository as a remote, which helps us making push our local repository changes.
+
+
+7. Push local repository to Github
+
+* In the las step, use the below command to push the local repository to github. It will upload the file or project on github.
+
+git push origin master
+
+* If you use -u in the command, it will remember your preferences for remote and branch and you can simply use the command git push next time.
+
+git push -u origin master
+
+
+Note - This docume nt hs been referred from the site https://www.tutsmake.com/upload-project-files-on-github-using-command-line/.
