@@ -5,7 +5,7 @@ for each_elem in list:
 	
 def func(each_elem):
 	print('each element is',each_elem)
-	if each_elem == 9:
+	if each_elem == 11:
 		continue
 	else:
 		
